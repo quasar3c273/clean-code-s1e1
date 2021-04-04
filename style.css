@@ -42,6 +42,7 @@ body {
 
 .add-list-item__task-wrapper {
   display: flex;
+  padding-top: 20px;
 }
 
 ul {
@@ -74,8 +75,7 @@ button {
 }
 
 /* Heading */
-.main__title_h3,
-.title-add-item {
+.main__title_h3 {
   color: #333;
   font-weight: 700;
   font-size: 15px;
@@ -103,16 +103,11 @@ button {
 }
 
 /* New Task */
-.title-add-item {
-  display: block;
-  margin: 0 0 20px;
-}
-
 #new-task {
   width: 318px;
 }
 
-.add-list-item > .btn:hover {
+.task__btn_add:hover {
   color: #0fc57c;
 }
 
